@@ -1,4 +1,4 @@
-"use Strict";
+"use strict";
 
 // target elements 
 const barIcon = document.getElementsByClassName('bar')[0];
@@ -31,10 +31,6 @@ navbarListItems.forEach(navbarListItem => {
 });
 
 document.addEventListener('click', (e) => {
-    console.log(e.target)
-    // console.log(navbarList.contains(e.target))
-    console.log( barIcon.contains(e.target));
-    
     if (!navbarList.contains(e.target) && !barIcon.contains(e.target)){
         navbarList.setAttribute('style', 'display: none');
         xMarkIcon.setAttribute('style', 'display:none');
