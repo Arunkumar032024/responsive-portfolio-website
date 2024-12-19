@@ -1,0 +1,23 @@
+{
+  "name": "responsive-portfolio-website",
+  "version": "1.0.0",
+  "description": "This repository contains the code for a responsive portfolio website, designed to showcase projects, skills, and experience. Built with HTML, CSS, and JavaScript, the website adapts seamlessly to different screen sizes, ensuring an optimal user experience across devices. Ideal for developers looking to highlight their work and expertise.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arunkumar032024/responsive-portfolio-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arunkumar032024/responsive-portfolio-website/issues"
+  },
+  "homepage": "https://github.com/Arunkumar032024/responsive-portfolio-website#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
